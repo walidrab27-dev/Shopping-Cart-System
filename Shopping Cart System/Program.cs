@@ -69,8 +69,8 @@
                 }
                 else
                 {
-                    Console.WriteLine($"{_cartItems[i].Name}, Price: {_cartItems[i].Price}, Quantity: {_cartItems[i].Quantity}" +
-                        $"\nTotal Price: {_cartItems[i].CalculateTotalPrice()}");
+                    Console.WriteLine($"{_cartItems[i].Name} | Price: ${_cartItems[i].Price} | Quantity: {_cartItems[i].Quantity}" +
+                        $"\nTotal Price: ${_cartItems[i].CalculateTotalPrice()}");
                     Console.WriteLine();
                 }
             }
